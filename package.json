@@ -22,9 +22,9 @@
 "expo-router": "~6.0.23" → change 19 to 23
 "expo-splash-screen": "~31.0.13" → change 12 to 13
 "expo-notifications": "~0.32.16" → change 15 to 16
-    expo-constants": "~18.0.12" → change 12 to 13
-expo-font": "~14.0.10" → change 10 to 11
-expo-audio": "~1.1.0" → change last 0 to 1
-expo-linking": "~8.0.10" → change 10 to 11
+    expo-constants": "~18.0.13" → change 12 to 13
+expo-font": "~14.0.11" → change 10 to 11
+expo-audio": "~1.1.1" → change last 0 to 1
+expo-linking": "~8.0.11" → change 10 to 11
   }
 }
