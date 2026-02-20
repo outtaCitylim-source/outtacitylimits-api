@@ -33,10 +33,10 @@ app.delete("/inventory/:id", (req, res) => {
   res.json({ message: "Item deleted" });
 });
 
-if (process.env.VERCEL) {
-  module.exports = app;
-} else {
-  app.listen(3000, () => {
-    console.log("Server running on port 3000");
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+
   });
 }
